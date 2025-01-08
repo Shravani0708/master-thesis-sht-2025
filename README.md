@@ -1,8 +1,9 @@
 The repository contains all the R code files used for the research. All the code was written and executed in the RStudio software. 
-It also contains two datasets: 
-  'Results_cleaned_wocomposite_forR.csv' contains raw data
+It also contains the datasets: 
+  'results-survey2_raw data' contains raw survey data
+  'Results_cleaned_wocomposite_forR.csv' contains data that has been cleaned and formatted for use in RStudio
   'Result_CompositeScores_ForR.csv' and 'Result_CompositeScores_ForR.xlsx' contain aggregated data.
-Each code file indicates and loads the relevant dataset. Please note that file paths are hardcoded and may need to be changed, if the code is needed to be run again.
+Each code file indicates and loads the relevant dataset. Please note that file paths are hardcoded and may need to be changed, if the code is needed to be run again. Similarly, datasets may need to be downloaded locally to be read.
 
 Description of code files:
 
