@@ -2,7 +2,7 @@ The repository contains all the R code files used for the research. All the code
 It also contains two datasets: 
   'Results_cleaned_wocomposite_forR.csv' contains raw data
   'Result_CompositeScores_ForR.csv' and 'Result_CompositeScores_ForR.xlsx' contain aggregated data.
-Each code file indicates and loads the relevant dataset. 
+Each code file indicates and loads the relevant dataset. Please note that file paths are hardcoded and may need to be changed, if the code is needed to be run again.
 
 Description of code files:
 
