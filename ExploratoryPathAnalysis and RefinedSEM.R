@@ -9,35 +9,35 @@ head(my_data)
 
 # Define path analysis models for each predictor variable
 
-# Example 1: Institutional Support
+# 1: Institutional Support
 model_IS <- '
   TLX_COMP ~ INSPT_COMP
   ATT_COMP ~ TLX_COMP
   BEH_COMP ~ TLX_COMP
 '
 
-# Example 2: Lesson Preparation Time
+# 2: Lesson Preparation Time
 model_LPT <- '
   TLX_COMP ~ LPT_COMP
   ATT_COMP ~ TLX_COMP
   BEH_COMP ~ TLX_COMP
 '
 
-# Example 3: Access and Use of Technology
+# 3: Access and Use of Technology
 model_TECH <- '
   TLX_COMP ~ TECH_COMP
   ATT_COMP ~ TLX_COMP
   BEH_COMP ~ TLX_COMP
 '
 
-# Example 4: Self-Efficacy
+# 4: Self-Efficacy
 model_SEFF <- '
   TLX_COMP ~ SEFF_COMP
   ATT_COMP ~ TLX_COMP
   BEH_COMP ~ TLX_COMP
 '
 
-# Example 5: Experience with SHT
+# 5: Experience with SHT
 model_EXP <- '
   TLX_COMP ~ EXP1
   ATT_COMP ~ TLX_COMP
